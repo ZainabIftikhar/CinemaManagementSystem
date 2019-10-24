@@ -1,0 +1,25 @@
+INSERT into Hall values ('Monachopsis', 50, 0);
+INSERT into Hall values ('Rubatosis', 50, 0);
+INSERT into Hall values ('Chrysalism', 50, 0);
+INSERT into Hall values ('Anecdoche', 50, 0);
+INSERT into Hall values ('Nodus Tollens:', 50, 0);
+select *from Hall;
+insert into Movies values ('Kung Fu Panda 3', 'Animated', 'Jack Black', 'Angelina Jolie', 'https://www.youtube.com/watch?v=H-30B0cqh88', '2016-01-29' ); 
+insert into Movies values ('The Other Side of The Door', 'Horror', 'Jeremy Sisto','Sarah Wayne Callies', 'https://www.youtube.com/watch?v=C1HjOEubv2Y', '2016-03-04');
+insert into Movies values ('Batman Vs Superman', 'Action', 'Ben Affleck', 'Amy Adams', 'https://www.youtube.com/watch?v=eX_iASz1Si8', '2016-03-25');
+insert into Movies values ('Finding Dory', 'Comedy', 'Albert Brooks', 'Ellen DeGeneres', 'https://www.youtube.com/watch?v=3JNLwlcPBPI', '2016-04-05');
+insert into Movies values ('Ice Age 5', 'Comedy', 'Aziz Ansari' , 'Joey Baher', 'https://www.youtube.com/watch?v=tLE_zHc3oDE', '2016-04-07');
+
+insert into Timings values (1,1, '01:30-03:30', '2016-04-18');
+insert into Timings values (1,4, '01:30-03:30', '2016-04-18');
+insert into Timings values (3,5, '02:30-05:30', '2016-04-18');
+insert into Timings values (4,1, '02:30-05:30', '2016-04-19');
+insert into Timings values (1,3, '02:30-05:30', '2016-04-19');
+insert into Timings values (2,1, '11:30-01:30', '2016-04-19');
+insert into Timings values (5,2, '01:30-03:30', '2016-04-20');
+insert into Timings values (1,5, '02:30-05:30', '2016-04-20');
+insert into Timings values (3,3, '11:30-01:30', '2016-04-21');
+insert into Timings values (1,4, '01:30-03:30', '2016-04-21');
+insert into Timings values (4,1, '11:30-01:30', '2016-04-22');
+insert into Timings values (3,2, '02:30-05:30', '2016-04-22');
+insert into Timings values (1,1, '02:30-05:30', '2016-04-22');
